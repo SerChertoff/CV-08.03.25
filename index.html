@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CV page</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/textfx.png" alt="logo" width="70" />
+      <img src="assets/eubto3ks.png" alt="my photo" class="avatar" />
+      <h1 class="header__title">SerChertoff | CV</h1>
+      <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+      <section class="skills">
+        <h3>Skills</h3>
+
+        <details>
+          <summary>Skills List:</summary>
+
+          <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Vue</li>
+            <li>GitHab</li>
+            <li>Docker</li>
+            <li>MySQL</li>
+          </ol>
+        </details>
+      </section>
+      <article class="article">
+        <h4>Short article about me</h4>
+        <p>
+          The ability to work in a team, resolve conflict situations, be
+          attentive to details, have well-developed critical thinking, the
+          ability to listen and clearly express my thoughts, as well as other
+          similar skills help me to be a worthy programmer.
+        </p>
+      </article>
+
+      <hr class="separator" />
+      <section class="video">
+        <iframe
+          src="https://rutube.ru/play/embed/c38b1c3fa772a5334d2b22a75f624a65"
+          frameborder="0"
+          allow="clipboard-write; autoplay"
+        ></iframe>
+      </section>
+
+      <section class="hobbies">
+        <h4>My hobbies</h4>
+
+        <details>
+          <summary>Hobbies</summary>
+
+          <ul>
+            <li>Cars</li>
+            <li>Sport</li>
+            <li>Travel</li>
+          </ul>
+        </details>
+      </section>
+      <hr class="separator" />
+
+      <section class="ed">
+        <table class="ed__table">
+          <thead>
+            <tr>
+              <th>School / University</th>
+              <th>Profession</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Result University</td>
+              <td>Vue Dev</td>
+              <td>2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="quote">
+        <blockquote>Chatter is cheap. Show me the code.</blockquote>
+      </section>
+
+      <section class="interaction">
+        <form action="https://ya.ru" method="get" class="form" target="_blank">
+          <fieldset>
+            <legend>Required fields:</legend>
+
+            <label for="firstName-id">First Name: </label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName-id"
+              required
+              class="form__control"
+              placeholder="first name"
+            />
+
+            <label for="lastName-id">Last Name: </label>
+            <input
+              type="text"
+              name="lasttName"
+              id="lastName-id"
+              required
+              class="form__control"
+              placeholder="last name"
+            />
+
+            <label for="email-id">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email=id"
+              required
+              class="form__control"
+              placeholder="email"
+            />
+          </fieldset>
+          <br />
+          <textarea
+            name="questions"
+            cols="30"
+            rows="10"
+            class="form__control control--text"
+            placeholder="your questions"
+          >
+          </textarea>
+
+          <button type="submit" class="form-submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <address>
+        <a href="https://t.me/SERGIO_CHERTOFF">t.me/SERGIO_CHERTOFF</a>
+        <br />
+        <a href="tel:+79609463275">+79609463275</a>
+      </address>
+    </footer>
+  </body>
+</html>
